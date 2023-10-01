@@ -275,45 +275,46 @@
         line-height: normal;
     }
 
-    .grid_for{
+    .grid_for {
         grid-template-columns: repeat(3, 231.973px);
     }
+
     .grid_for .grid_item {
         background: #000;
     }
-    
+
     .accesories {
         grid-row: span 3;
         grid-column: span 3;
     }
-    
+
     .grid_for .grid_img {
         width: 231.973px;
         height: 167.617px;
         opacity: 0.4;
     }
-    
-    .grid_for .big{
+
+    .grid_for .big {
         width: 734.581px;
         height: 116.043px;
     }
-    
+
     .grid_for .position {
         position: relative;
     }
-    
+
     .grid_for .grid_items_position {
         position: absolute;
     }
-    
+
     .grid_for .grid_text {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
+
     }
-    
+
     .grid_for .grid_h3 {
         color: #FFF;
         text-align: center;
@@ -323,7 +324,7 @@
         font-weight: 400;
         line-height: normal;
     }
-    
+
     .grid_for .grid_h2 {
         color: #F16D7F;
         font-family: Lato;
@@ -332,9 +333,124 @@
         font-weight: 700;
         line-height: normal;
     }
-    
-    .grid{
+
+    .grid {
         grid-template-columns: repeat(2, 360px);
     }
 
+}
+
+@media (max-width: 426px) {
+
+    .header{
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ds_non{
+        display: block;
+        display: none;
+    }
+
+    .upper .man {
+        display: block;
+        display: none;
+    }
+
+    .brand {
+        width: 234px;
+        height: 363px;
+        gap: 13px;
+    }
+
+    .rectangle{
+        height: 61px;
+    }
+
+    .upper_text .first {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    .upper_text .second {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .upper_text .third {
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .grid_for {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid_for .grid_item {
+        width: 343px;
+        height: 248px;
+        background: #000;
+    }
+
+    .grid_for .accesories {
+        height: 111px;
+    }
+
+    .grid_for .grid_img {
+        width: 343px;
+        height: 248px;
+        opacity: 0.4;
+    }
+
+    .grid_for .big {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid_for .position {
+        position: relative;
+    }
+
+    .grid_for .grid_items_position {
+        position: absolute;
+    }
+
+    .grid_for .grid_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .grid_for .grid_h3 {
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .grid_for .grid_h2 {
+        color: #F16D7F;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1,360px);
+    }
 }
